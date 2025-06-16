@@ -1,0 +1,7 @@
+# Minimal .zshrc for Docker testing
+export ZSH_THEME="robbyrussell"
+export PS1="%n@%m %1~ %# "
+
+alias ll='ls -alF'
+alias gs='git status'
+echo "Welcome to Zsh inside Docker!"
